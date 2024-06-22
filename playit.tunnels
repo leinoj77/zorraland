@@ -1,0 +1,59 @@
+{
+  "tcp_alloc": {
+    "allowed": 6,
+    "claimed": 0,
+    "desired": 0
+  },
+  "tunnels": [
+    {
+      "active": true,
+      "alloc": {
+        "data": {
+          "assigned_domain": "enough-minority.gl.at.ply.gg",
+          "assigned_srv": null,
+          "assignment": {
+            "type": "shared-ip"
+          },
+          "id": "0d06fca2-e72c-4836-bb02-82243958c0f1",
+          "ip_hostname": "18.ip.gl.ply.gg",
+          "ip_type": "both",
+          "port_end": 3386,
+          "port_start": 3385,
+          "region": "global",
+          "static_ip4": "147.185.221.18",
+          "tunnel_ip": "2602:fbaf:0:1::12"
+        },
+        "status": "allocated"
+      },
+      "created_at": "2024-06-21T20:57:15.750095Z",
+      "disabled_reason": null,
+      "domain": null,
+      "expire_notice": null,
+      "firewall_id": null,
+      "id": "3f8fe63b-9a5d-4797-80d3-f7cacee121ec",
+      "name": "unnamed",
+      "origin": {
+        "data": {
+          "agent_id": "52ecb15a-dd3f-4db1-9577-4cd60ffeba82",
+          "agent_name": "ipFija",
+          "local_ip": "127.0.0.1",
+          "local_port": 3385
+        },
+        "type": "agent"
+      },
+      "port_count": 1,
+      "port_type": "udp",
+      "ratelimit": {
+        "bytes_per_second": null,
+        "packets_per_second": null
+      },
+      "region": "global",
+      "tunnel_type": null
+    }
+  ],
+  "udp_alloc": {
+    "allowed": 6,
+    "claimed": 1,
+    "desired": 1
+  }
+}
